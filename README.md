@@ -1,2 +1,2 @@
 # Aulas-de-WebProg
-atividades e projetos de programação web
+atividades e projetos de programação web.
