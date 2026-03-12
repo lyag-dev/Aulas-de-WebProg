@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 17</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <div>
+            <label for="nome-do-produto">Nome do Produto:</label>
+            <input type="text" id="nome-do-produto" required>
+        </div>
+        <div>
+            <label for="descricao-do-pedido">Descrição do Pedido:</label>
+            <textarea id="descricao-do-pedido" required></textarea>
+        </div>
+        <div>
+            <label for="quantidade-do-produto">Quantidade do produto:</label>
+            <input type="number" min="5" max="50" id="quantidade-do-produto" required>
+        </div>
+        <div>
+            <label for="data-de-compra">Data de Compra:</label>
+            <input type="date" id="data-de-compra" required>
+        </div>
+        <div class="button">  
+            <button type="submit">Efetuar Compra:</button>
+            <button type="reset">Cancelar Compra:</button>
+        </div>
+    </form>
+</body>
+</html>
