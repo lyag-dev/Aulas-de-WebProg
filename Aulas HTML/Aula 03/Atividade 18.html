@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 18</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <div>
+            <label for="nome-completo-login-01">Nome Completo:</label>
+            <input type="text" id="nome-completo-login-01" required>
+        </div>
+        <div>
+            <label for="cpf-login-01">CPF:</label>
+            <input type="text" id="cpf-login-01" required
+            placeholder="000.000.000-00" 
+            maxlength="14">
+        </div>
+        <div>
+            <label for="data-nascimento-login-01">Data de Nascimento:</label>
+            <input type="date" id="data-nascimento-login-01" required>
+        </div>
+        <div>
+            <label for="telefone-login-01">Telefone:</label>
+            <input type="text" id="telefone-login-01" required
+            placeholder="(00) 00000-0000" 
+            maxlength="15">
+        </div>
+        <div>
+            <label for="email-login-01">Email:</label>
+            <input type="email" id="email-login-01" required>
+        </div>
+        <div>
+            <label for="nome-do-curso-login-01">Curso:</label>
+            <select id="nome-do-curso-login-01" required>
+                <option value="">Informática</option>
+                <option value="presencial">Admnistração</option>
+            </select>
+        </div>
+        <div>
+            <label>Modalidade:</label>
+            <input type="radio" id="modalidade-do-curso-login-01" name="modalidade-do-curso" value="coletivo" required>
+            <label for="modalidade-do-curso-login-01">Coletivo</label>
+            <input type="radio" id="modalidade-do-curso-login-02" name="modalidade-do-curso" value="individual" required>
+            <label for="modalidade-do-curso-login-02">Individual</label>
+        </div>
+        <div class="div-botao-login-01">
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </div>
+    </form>
+</body>
+</html>
