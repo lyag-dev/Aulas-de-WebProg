@@ -1,0 +1,24 @@
+body {
+    background-color: #e7a36b;
+}
+
+body h1 {
+    color: #381b0a;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body h2 {
+    color: #381b0a;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+body h3 {
+    color: #381b0a;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+body h4 {
+    color: #381b0a;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
