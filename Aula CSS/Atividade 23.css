@@ -1,0 +1,29 @@
+body {
+    background-color: #ffce72;
+    font-family: "Google Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "GRAD" 0;
+    color: #794113;
+}
+
+body img {
+  border-radius: 15px;
+  border: 3px solid #794113;
+}
+
+body hr {
+    background-color: #794113;
+    height: 3px;
+    border: none;
+}
+
+body a {
+    color: #b43a1c;
+}
+
+body a:hover {
+    color: #794113;
+}
+
