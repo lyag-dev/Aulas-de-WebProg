@@ -1,0 +1,28 @@
+body {
+    background-color: #ffce72;
+    font-family: "Google Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "GRAD" 0;
+    color: #794113;
+}
+
+body a {
+    padding: 3px 7px;
+    background-color: #794113;
+    color: #ffce72;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+body a:hover {
+    background-color: #381b0a;
+    color: #ffce72;
+}
+
+body .menu ul{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
