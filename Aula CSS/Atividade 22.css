@@ -1,0 +1,25 @@
+body{
+    background-color: #79c9b5;
+    margin: 20px;
+}
+body h1{
+    text-align: center;
+    color: #063d2b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body p{
+    text-align: center;
+    color: #10573f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body ol{
+    margin-left: 455px;
+    color: #10573f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body h3{
+    text-align: center;
+    color: #063d2b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
