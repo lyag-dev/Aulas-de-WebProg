@@ -1,0 +1,90 @@
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url('https://itapiruba.com.br/pweb/figuras/background.jpg');
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 100;
+}
+
+.page-description {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 20px; /*tarefa 26*/
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px; /*tarefa 28*/
+  margin-bottom: 30px; /*tarefa 28*/
+  display: flex; /*tarefa 32*/
+  flex-wrap: wrap; /*tarefa 32*/
+  justify-content: center; /*tarefa 32*/
+}
+
+.gallery-item {
+  margin: 2px;
+  border: 5px solid #0c6879; /*tarefa 25*/
+  border-radius: 5px; /*tarefa 25*/
+  margin: 20px; /*tarefa 27*/
+}
+
+.gallery-item .thumbnail {
+
+}
+
+/* FOOTER NAVIGATION */
+
+nav {
+  background-color: #FFF;
+}
+
+nav li {
+  margin: 0;
+  padding: 0 10px;
+  display: inline; /*atividade 30*/
+}
+
+nav ul {
+  display: inline;
+}
+
+.contact-btn {
+  float: right; /*atividade 31*/
+}
+
+.contact-btn a {
+  margin-right: 30px;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+}
+
+.contact-btn a:active {
+  position: relative;
+  bottom: 2px;
+}
+
+.contact-btn a {      /*atividade 33*/
+ position: relative;  /*atividade 33*/
+}                     /*atividade 33*/
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
