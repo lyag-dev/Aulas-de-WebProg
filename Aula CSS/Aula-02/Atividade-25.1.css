@@ -1,0 +1,32 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+div {
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 3px solid #0a806c;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #0a806c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

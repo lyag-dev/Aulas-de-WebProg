@@ -1,0 +1,52 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    border: #0a806c 3px solid;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+div {
+    text-align: center;
+}
+
+input, textarea, select {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 3px solid #0a806c;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #0a806c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#div-tipo-login-01 {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+#div-modulo-login-01 {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}

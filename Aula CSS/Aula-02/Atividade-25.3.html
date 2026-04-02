@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 25.3</title>
+    <link rel="stylesheet" href="Atividade-25.3.css">
+</head>
+<body>
+    <form action="#" method="post">
+        <div>
+            <label for="nome-completo-login-01">Nome Completo:</label>
+            <input type="text" id="nome-completo-login-01" required>
+        </div>
+        <div>
+            <label for="login-login-01">Login:</label>
+            <input type="text" id="login-login-01" required>
+        </div>
+        <div>
+            <label for="senha-login-01">Senha:</label>
+            <input type="password" id="senha-login-01" required>
+        </div>
+        <div>
+            <label for="data-nascimento-login-01">Data de nascimento:</label>
+            <input type="date" id="data-nascimento-login-01">
+        </div>
+        <div>
+            <label for="status-login-01">Status:</label>
+            <select id="status-login-01">
+                <option value="ativo">Ativo</option>
+                <option value="inativo">Inativo</option>
+            </select>
+        </div>
+        <div id="div-tipo-login-01">
+            <label> Tipo: </label>
+            <input type="radio" id="tipo-login-01" name="grupo" value="1">
+            <label for="tipo-login-01">Estudante</label>
+
+            <input type="radio" id="tipo-login-02" name="grupo" value="2">
+            <label for="tipo-login-02">Professor</label>
+
+            <input type="radio" id="tipo-login-03" name="grupo" value="3">
+            <label for="tipo-login-03">TAE</label>
+        </div>
+        <div>
+            <label for="obs-login-01">Observações:</label>
+            <textarea id="obs-login-01" name="story" rows="5" cols="33"></textarea>
+        </div>
+        <div id="div-modulo-login-01">
+            <label> Módulos: </label>
+            <input type="checkbox" id="modulo-login-01">
+            <label for="modulo-login-01">Ensino</label>
+
+            <input type="checkbox" id="modulo-login-02">
+            <label for="modulo-login-02">Pesquisa</label>
+
+            <input type="checkbox" id="modulo-login-03">
+            <label for="modulo-login-03">Extensão</label>
+        </div>
+        <div class="button">
+            <button type="submit">Cadastrar</button>
+            <button type="reset">Limpar</button> 
+        </div>
+    </form>
+</body>
+</html>
