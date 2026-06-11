@@ -5,7 +5,7 @@ function DefinirNota() {
     var nota = Number(document.getElementById("nota").value)
 
     if (var_permitidas.includes(nota)) {
-        switch (nota) {
+        switch (true) {
             case nota >= 9:
                 resultado = String("O aluno tirou nota A.")
                 break;
