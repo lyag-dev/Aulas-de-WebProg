@@ -15,7 +15,7 @@ function DefinirFxEtaria() {
                 resultado = String("Faixa etária: Adulto.")
                 break;
             case idade >= 60:
-                resultado = String("O aluno tirou nota F.")
+                resultado = String("Faixa etária: Idoso.")
                 break;
         }
     } else {
